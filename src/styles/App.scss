@@ -1,0 +1,43 @@
+.App {
+  .products-table {
+    margin: auto;
+    text-align: center;
+    width: 80%;
+
+    & th, td {
+      width: 33%;
+    }
+
+    & .products-table__head {
+      background: #eeeef6;
+    }
+
+    & .products-table__body tr:nth-child(odd)  {
+      background-color: #8e80e1;
+    }
+
+    & .products-table__footer  {
+      font-weight: bold;
+    }
+  }
+
+  .container {
+    text-align: center;
+
+    & .randomize-btn {
+      text-transform: uppercase;
+      margin: 30px auto;
+      padding: 10px;
+      background-color: ghostwhite;
+      border-radius: 10px;
+    }
+
+    & .randomize-btn:hover {
+      cursor: pointer;
+    }
+
+    & .randomize-btn:active {
+      background-color: #8e80e1;
+    }
+  }
+}
